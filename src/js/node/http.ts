@@ -1819,7 +1819,6 @@ class ClientRequest extends OutgoingMessage {
         );
       this._ensureTls().cert = options.cert;
     }
-    å;
     if (options.key) {
       if (!isValidTLSArray(options.key))
         throw new TypeError(
